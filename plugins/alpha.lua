@@ -3,12 +3,9 @@ return {
   opts = function()
     local dashboard = require "alpha.themes.dashboard"
     dashboard.section.header.val = {
-      " █████  ███████ ████████ ██████   ██████",
-      "██   ██ ██         ██    ██   ██ ██    ██",
       "██   ██ ███████    ██    ██   ██  ██████",
       " ",
       "    ███    ██ ██    ██ ██ ███    ███",
-      "    ██   ████   ████   ██ ██      ██",
     }
     dashboard.section.header.opts.hl = "DashboardHeader"
 

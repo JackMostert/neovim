@@ -1,11 +1,20 @@
 return {
   "hrsh7th/nvim-cmp",
-  opts = function(_, opts)
-    local cmp = require "cmp"
-    opts.mapping["<C-x>"] = cmp.mapping.select_next_item()
-    opts.experimental = {
+  opts = {
+    performance = {
+      debounce = 300,
+      throttle = 120,
+      fetching_timeout = 100,
+    },
+    experimental = {
       ghost_text = true,
-    }
-    return opts
-  end,
+    },
+    sources = {
+      { name = "nvim_lsp", priority = 1000 },
+      -- { name = "codeium",  priority = 750 },
+      { name = "luasnip", priority = 700 },
+      { name = "path", priority = 650 },
+      { name = "buffer", priority = 400 },
+    },
+  },
 }

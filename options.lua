@@ -8,5 +8,7 @@ return {
     laststatus = 3,
     scrolloff = 12, -- is one of my fav
     sidescrolloff = 12,
+    spell = true,
+    spelllang = { "en_us" },
   },
 }

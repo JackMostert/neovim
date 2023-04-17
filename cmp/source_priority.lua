@@ -4,9 +4,11 @@
 -- The value can also be set to a boolean for disabling default sources:
 -- false == disabled
 -- true == 1000
+
 return {
-  nvim_lsp = 1000,
-  luasnip = 750,
-  buffer = 500,
-  path = 250,
+  luasnip = 1000,
+  nvim_lua = 800,
+  nvim_lsp = 700,
+  path = 500,
+  buffer = 250,
 }
