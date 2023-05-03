@@ -1,7 +1,8 @@
 return {
   "rcarriga/nvim-notify",
+  disabled = true,
   opts = {
-    timeout = 10000,
+    timeout = 10,
     opacity = 0.2,
   },
 }
