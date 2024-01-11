@@ -6,9 +6,9 @@
 -- true == 1000
 
 return {
-  luasnip = 1000,
+  nvim_lsp = 1000,
   nvim_lua = 800,
-  nvim_lsp = 700,
-  path = 500,
-  buffer = 250,
+  luasnip = 700,
+  buffer = 500,
+  path = 250,
 }

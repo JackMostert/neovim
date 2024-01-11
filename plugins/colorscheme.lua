@@ -6,7 +6,7 @@ return {
     local c = require("vscode.colors").get_colors()
     require("vscode").setup {
       transparent = false,
-      italic_comments = true,
+      italic_comments = false,
       disable_nvimtree_bg = true,
       color_overrides = {
         vscLineNumber = "#3f3f3f",
